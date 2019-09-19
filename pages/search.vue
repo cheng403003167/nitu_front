@@ -31,7 +31,7 @@
 import axios from 'axios';
 export default {
   asyncData ({query}) {
-    return axios.post('http://localhost:8080/api/getSearchArticleListAndType',query)
+    return axios.post('http://www.dnitu.com/api/getSearchArticleListAndType',query)
     .then((res) => {
       res.data.article_list.forEach(function(item){
         var filterHTMLTag = function (msg) {
