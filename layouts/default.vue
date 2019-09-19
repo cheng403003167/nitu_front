@@ -20,6 +20,7 @@
     <div class="footer">
       <p>
         <span>@dnitu.com</span>
+        <a href="https://www.beian.miit.gov.cn">粤ICP备18026264号-2</a>
       </p>
     </div>
   </div>
@@ -157,6 +158,10 @@ body{
     display: inline-block;
     padding: 4px 0;
     font-size: 16px;
+  }
+  a{
+    display: inline-block;
+    margin-left: 30px;
   }
 }
 </style>

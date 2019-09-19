@@ -39,7 +39,7 @@
 import axios from 'axios';
 export default {
   asyncData ({ params }) {
-    return axios.post('http://localhost:8080/getArticleListAndType',{arId:1})
+    return axios.post('http://localhost:8080/api/getArticleListAndType',{arId:1})
     .then((res) => {
       res.data.article_list.forEach(function(item){
         var filterHTMLTag = function (msg) {

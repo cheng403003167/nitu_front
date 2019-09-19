@@ -34,7 +34,7 @@
 import axios from 'axios';
 export default {
   asyncData ({ params }) {
-    return axios.post('http://localhost:8080/getArticleConAndType',{arId:params.id})
+    return axios.post('http://localhost:8080/api/getArticleConAndType',{arId:params.id})
     .then((res) => {
       return {datas: res.data.article_con[0],article_type: res.data.article_type,prevD:res.data.article_prev[0],nextD:res.data.article_next[0]};
     })

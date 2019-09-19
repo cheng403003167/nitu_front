@@ -62,7 +62,7 @@ module.exports = {
   generate: {
     routes: function(){
       function getArticleList(){
-        return axios.post('http://localhost:8080/getArticleList')
+        return axios.post('http://localhost:8080/api/getArticleList')
         .then((res) => {
           var pag_leng = Math.ceil(res.data.length/5);
           var pag_router = []
@@ -73,7 +73,7 @@ module.exports = {
         })
       }
       function getMotivational(){
-        return axios.post('http://localhost:8080/getArticleList',{arId:1})
+        return axios.post('http://localhost:8080/api/getArticleList',{arId:1})
         .then((res) => {
           var pag_leng = Math.ceil(res.data.length/5);
           var pag_router = []
@@ -84,7 +84,7 @@ module.exports = {
         })
       }
       function getEducation(){
-        return axios.post('http://localhost:8080/getArticleList',{arId:2})
+        return axios.post('http://localhost:8080/api/getArticleList',{arId:2})
         .then((res) => {
           var pag_leng = Math.ceil(res.data.length/5);
           var pag_router = []
@@ -95,7 +95,7 @@ module.exports = {
         })
       }
       function getFamily(){
-        return axios.post('http://localhost:8080/getArticleList',{arId:4})
+        return axios.post('http://localhost:8080/api/getArticleList',{arId:4})
         .then((res) => {
           var pag_leng = Math.ceil(res.data.length/5);
           var pag_router = []
@@ -106,7 +106,7 @@ module.exports = {
         })
       }
       function getFunny(){
-        return axios.post('http://localhost:8080/getArticleList',{arId:6})
+        return axios.post('http://localhost:8080/api/getArticleList',{arId:6})
         .then((res) => {
           var pag_leng = Math.ceil(res.data.length/5);
           var pag_router = []
@@ -117,7 +117,7 @@ module.exports = {
         })
       }
       function getInspirational(){
-        return axios.post('http://localhost:8080/getArticleList',{arId:3})
+        return axios.post('http://localhost:8080/api/getArticleList',{arId:3})
         .then((res) => {
           var pag_leng = Math.ceil(res.data.length/5);
           var pag_router = []
@@ -128,7 +128,7 @@ module.exports = {
         })
       }
       function getLove(){
-        return axios.post('http://localhost:8080/getArticleList',{arId:5})
+        return axios.post('http://localhost:8080/api/getArticleList',{arId:5})
         .then((res) => {
           var pag_leng = Math.ceil(res.data.length/5);
           var pag_router = []
@@ -138,9 +138,20 @@ module.exports = {
           return pag_router;
         })
       }
-      return axios.all([getArticleList(),getMotivational(),getEducation(),getFamily(),getFunny(),getInspirational(),getLove()])
-      .then(axios.spread(function (acct, mot,edu,fam,fun,ins,lov) {
-        return acct.concat(mot,edu,fam,fun,ins,lov);
+      function getArticleIdList(){
+        return axios.get('http://localhost:8080/api/getArticleIdList')
+        .then((res) => {
+          var pag_leng = res.data.length;
+          var pag_router = []
+          for(var s = 0;s< pag_leng;s++){
+            pag_router.push({route: '/article/'+res.data[s].id});
+          }
+          return pag_router;
+        })
+      }
+      return axios.all([getArticleList(),getMotivational(),getEducation(),getFamily(),getFunny(),getInspirational(),getLove(),getArticleIdList()])
+      .then(axios.spread(function (acct, mot,edu,fam,fun,ins,lov,articleId) {
+        return acct.concat(mot,edu,fam,fun,ins,lov,articleId);
       }));
     }
   }
