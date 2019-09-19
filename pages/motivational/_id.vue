@@ -7,7 +7,7 @@
             <img :src="'https://traile.oss-cn-shenzhen.aliyuncs.com/'+item.front_img" :alt="item.title">
           </nuxt-link>
           <div class="item_con">
-            <h2><nuxt-link :to="'/article/'+item.id">{{item.title}}</nuxt-link></h2>
+            <h2><nuxt-link :to="'/article/'+item.id+'/'">{{item.title}}</nuxt-link></h2>
             <p class="item_des">{{item.tempDes}}</p>
           </div>
         </div>
