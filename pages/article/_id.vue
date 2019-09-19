@@ -3,7 +3,7 @@
     <div class="brand_con">
       <div class="brand">
         <nuxt-link to="/">首页</nuxt-link>/
-        <nuxt-link :to="'/'+brand_data.route+'/1'">{{brand_data.type}}</nuxt-link>/
+        <nuxt-link :to="'/'+brand_data.route+'/1/'">{{brand_data.type}}</nuxt-link>/
         <span>{{datas.title}}</span>
       </div>
     </div>
