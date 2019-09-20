@@ -3,20 +3,7 @@
     <div class="header">
       <span class="logo">泥兔</span>
     </div>
-    <div class="nav">
-      <div class="nav_con">
-        <a href="/" :class="fullPath.indexOf('index')>=0?'active':''">首页</a>
-        <a href="/motivational/1" :class="fullPath.indexOf('motivational')>=0?'active':''">励志</a>
-        <a href="/education/1" :class="fullPath.indexOf('education')>=0?'active':''">教育</a>
-        <a href="/inspirational/1" :class="fullPath.indexOf('inspirational')>=0?'active':''">灵性</a>
-        <a href="/family/1" :class="fullPath.indexOf('family')>=0?'active':''">家庭</a>
-        <a href="/love/1" :class="fullPath.indexOf('love')>=0?'active':''">爱</a>
-        <a href="/funny/1" :class="fullPath.indexOf('funny')>=0?'active':''">娱乐</a>
-      </div>
-    </div>
-    <div>
       <nuxt/>
-    </div>
     <div class="footer">
       <p>
         <span>@dnitu.com</span>
@@ -29,11 +16,9 @@
 export default {
   data() {
     return {
-      fullPath: ''
     };
   },
-  created(){
-    this.fullPath = this.$route.name;
+  methods:{
   }
 };
 </script>
@@ -117,35 +102,6 @@ body{
     display: inline-block;
     font-size: 40px;
     font-weight: bold;
-  }
-}
-.nav {
-  background: #BFAB86;
-  margin-top: 10px;
-  .nav_con {
-    width: 1000px;
-    margin: auto;
-    font-size: 0;
-    a {
-      display: inline-block;
-      padding: 10px;
-      color: #fff;
-      border-left: 1px solid #e2e0e0;
-      font-size: 16px;
-      min-width: 80px;
-      text-align: center;
-      &:hover {
-        background: #fffbf0;
-        color: #000;
-      }
-      &:first-child {
-        border-left: none;
-      }
-      &.active{
-        background: #fffbf0;
-        color: #000;
-      }
-    }
   }
 }
 .footer {

@@ -1,41 +1,45 @@
 <template>
-  <div class="container_con">
-    <div class="main_l">
-      <div class="list">
-        <div class="list_item" v-for="(item,index) in datas" :key="index">
-          <nuxt-link class="img_line" :to="'/article/'+item.id">
-            <img :src="'https://traile.oss-cn-shenzhen.aliyuncs.com/'+item.front_img" :alt="item.title">
-          </nuxt-link>
-          <div class="item_con">
-            <h2><nuxt-link :to="'/article/'+item.id+'/'">{{item.title}}</nuxt-link></h2>
-            <p class="item_des">{{item.tempDes}}</p>
+  <div>
+    <navserv></navserv>
+    <div class="container_con">
+      <div class="main_l">
+        <div class="list">
+          <div class="list_item" v-for="(item,index) in datas" :key="index">
+            <nuxt-link class="img_line" :to="'/article/'+item.id">
+              <img :src="'https://traile.oss-cn-shenzhen.aliyuncs.com/'+item.front_img" :alt="item.title">
+            </nuxt-link>
+            <div class="item_con">
+              <h2><nuxt-link :to="'/article/'+item.id+'/'">{{item.title}}</nuxt-link></h2>
+              <p class="item_des">{{item.tempDes}}</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="main_r">
-      <div class="search_div">
-        <input type="text" placeholder="搜索" v-model="search">
-        <span class="search_btn" @click="search_btn">搜索</span>
+      <div class="main_r">
+        <div class="search_div">
+          <input type="text" placeholder="搜索" v-model="search">
+          <span class="search_btn" @click="search_btn">搜索</span>
+        </div>
+        <div class="Categories">
+          <h2>分类</h2>
+          <nuxt-link :to="'/'+item.route+'/1/'" v-for="(item,index) in article_type" :key="index">{{item.type}}</nuxt-link>
+        </div>
       </div>
-      <div class="Categories">
-        <h2>分类</h2>
-        <nuxt-link :to="'/'+item.route+'/1'" v-for="(item,index) in article_type" :key="index">{{item.type}}</nuxt-link>
+      <div class="pagination">
+        <span class="pag_btn" @click="prevPage" v-show="curPage != 1">上一页</span>
+        <span v-for="(item,index) in pag_nums" :key="index">
+          <nuxt-link v-if="item != '...'" @click="curPage=item" :class="curPage == item?'active':''" :to="'/pages/'+item">{{item}}</nuxt-link>
+          <i v-if="item == '...'">...</i>
+        </span>
+        <span class="pag_btn" @click="nextPage">下一页</span>
       </div>
-    </div>
-    <div class="pagination">
-      <span class="pag_btn" @click="prevPage" v-show="curPage != 1">上一页</span>
-      <span v-for="(item,index) in pag_nums" :key="index">
-        <nuxt-link v-if="item != '...'" @click="curPage=item" :class="curPage == item?'active':''" :to="'/pages/'+item">{{item}}</nuxt-link>
-        <i v-if="item == '...'">...</i>
-      </span>
-      <span class="pag_btn" @click="nextPage">下一页</span>
     </div>
   </div>
 
 </template>
 
 <script>
+import navserv from "@/components/navserv";
 import axios from 'axios';
 export default {
   asyncData ({ params }) {
@@ -118,6 +122,9 @@ export default {
       {  name: 'description', content: '国外温馨小故事和开心短笑话精选为学生和孩子们提供励志故事集，泥兔网为您提供优质的国外故事和笑话' },
       ]
     }
+  },
+  components:{
+    navserv,
   },
   methods:{
     nextPage(){
