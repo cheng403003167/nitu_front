@@ -6,7 +6,7 @@
         v-if="item != '...'"
         @click="params=item"
         :class="params == item?'active':''"
-        :to="'/pages/'+item"
+        :to="'/'+page_nav+'/'+item+'/'"
       >{{item}}</nuxt-link>
       <i v-if="item == '...'">...</i>
     </span>
@@ -19,7 +19,8 @@ export default {
     return {
       leng: this.$attrs.article_leng,
       params: this.$attrs.cur_page,
-      pag_nums: []
+      pag_nums: [],
+      page_nav: ''
     }
   },
   created(){
@@ -75,6 +76,7 @@ export default {
         }
       }
       this.pag_nums = pag_num;
+      this.page_nav = this.$route.name.split('-')[0];
   },
   methods:{
     nextPage(){
