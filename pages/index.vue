@@ -21,18 +21,8 @@
         </div>
       </div>
       <div class="main_r">
-        <div class="search_div">
-          <input type="text" placeholder="搜索" v-model="search" />
-          <span class="search_btn" @click="search_btn">搜索</span>
-        </div>
-        <div class="Categories">
-          <h2>分类</h2>
-          <nuxt-link
-            :to="'/'+item.route+'/1'"
-            v-for="(item,index) in article_type"
-            :key="index"
-          >{{item.type}}</nuxt-link>
-        </div>
+        <search></search>
+        <categories v-bind:article_type="article_type"></categories>
       </div>
       <div class="pagination">
         <span>
@@ -51,6 +41,8 @@
 
 <script>
 import navserv from "@/components/navserv";
+import search from "@/components/searchcom";
+import categories from "@/components/categories";
 import axios from "axios";
 export default {
   asyncData({ params }) {
@@ -82,7 +74,6 @@ export default {
   },
   data() {
     return {
-      search: ""
     };
   },
   head() {
@@ -104,18 +95,12 @@ export default {
   },
   components:{
     navserv,
+    search,
+    categories
   },
   methods: {
     nextPage() {
       this.$router.push("/pages/2");
-    },
-    search_btn() {
-      if (this.search.length > 0) {
-        this.$router.push({
-          path: "/search",
-          query: { search: this.search }
-        });
-      }
     }
   }
 };
@@ -171,47 +156,6 @@ export default {
   }
   .main_r {
     width: 300px;
-    .search_div {
-      input {
-        display: inline-block;
-        vertical-align: middle;
-        outline: none;
-        border: 1px solid #ccc;
-        line-height: 30px;
-        width: 200px;
-        padding: 0 10px;
-      }
-      .search_btn {
-        display: inline-block;
-        vertical-align: middle;
-        font-size: 16px;
-        line-height: 30px;
-        background: #e5e5e5;
-        text-align: center;
-        width: 68px;
-        margin-left: 10px;
-        color: #010101;
-        cursor: pointer;
-      }
-    }
-    .Categories {
-      margin-top: 30px;
-      h2 {
-        font-size: 20px;
-        color: #000;
-        font-weight: bold;
-        padding-bottom: 10px;
-        border-bottom: 4px solid #dedede;
-      }
-      a {
-        display: block;
-        width: 100%;
-        border-bottom: 1px dotted #ddd;
-        padding: 20px 0;
-        font-size: 16px;
-        color: #d33;
-      }
-    }
   }
   .pagination {
     width: 970px;
