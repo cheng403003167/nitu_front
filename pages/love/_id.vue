@@ -68,17 +68,6 @@ export default {
     pagination
   },
   methods:{
-    nextPage(){
-      if(this.curPage<this.pag_nums[this.pag_nums.length-1]){
-        ++this.curPage;
-        this.$router.push('/motivational/'+this.curPage);
-      }
-    },
-    prevPage(){
-      if(this.curPage != 1){
-      this.$router.push('/motivational/'+--this.curPage);
-      }
-    }
   }
 }
 </script>
