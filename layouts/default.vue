@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="header">
-      <span class="logo">泥兔</span>
+      <img src="@/static/logo.png" alt="" class="logo">
     </div>
       <nuxt/>
     <div class="footer">
@@ -100,8 +100,7 @@ body{
   margin: auto;
   .logo {
     display: inline-block;
-    font-size: 40px;
-    font-weight: bold;
+    width: 160px;
   }
 }
 .footer {
