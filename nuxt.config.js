@@ -58,7 +58,12 @@ module.exports = {
     extend(config, ctx) {
 
     },
-    extractCSS:{allChunks: true}
+    extractCSS:{allChunks: true},
+    html:{
+      minify:{
+        collapseWhitespace: true
+      }
+    }
   },
   generate: {
     routes: function(){
