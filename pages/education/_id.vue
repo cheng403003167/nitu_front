@@ -56,7 +56,7 @@ export default {
     return {
       title: '令人感动的故事与笑话-教育_泥兔网',
       meta: [
-      { hid: 'description', name: 'keyword', content: '温馨，小故事，开心，学生，孩子，励志' },
+      { hid: 'description', name: 'Keywords', content: '温馨，小故事，开心，学生，孩子，励志' },
       {  name: 'description', content: '国外温馨小故事和开心短笑话精选为学生和孩子们提供励志故事集，泥兔网为您提供优质的国外故事和笑话' },
       ]
     }

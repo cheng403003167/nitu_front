@@ -82,7 +82,7 @@ export default {
       meta: [
         {
           hid: "description",
-          name: "keyword",
+          name: "Keywords",
           content: "温馨，小故事，开心，学生，孩子，励志"
         },
         {

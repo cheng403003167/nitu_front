@@ -49,7 +49,7 @@ export default {
       title: this.datas.title+'-'+this.brand_data.type+"_泥兔网",
       meta: [
         { name: 'description', content: this.datas.descript },
-        { name: 'keyword', content: this.datas.keyword }
+        { name: 'Keywords', content: this.datas.keyword }
       ]
     }
   },
