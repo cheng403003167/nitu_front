@@ -59,11 +59,6 @@ module.exports = {
 
     },
     extractCSS:{allChunks: true},
-    html:{
-      minify:{
-        collapseWhitespace: true
-      }
-    }
   },
   generate: {
     routes: function(){
