@@ -57,7 +57,8 @@ module.exports = {
     */
     extend(config, ctx) {
 
-    }
+    },
+    extractCSS:{allChunks: true}
   },
   generate: {
     routes: function(){
