@@ -23,6 +23,7 @@
       <div class="main_r">
         <search></search>
         <categories v-bind:article_type="article_type"></categories>
+        <otherline></otherline>
       </div>
       <div class="pagination">
         <span>
@@ -43,6 +44,7 @@
 import navserv from "@/components/navserv";
 import search from "@/components/searchcom";
 import categories from "@/components/categories";
+import otherline from "@/components/otherline";
 import axios from "axios";
 export default {
   asyncData({ params }) {
@@ -96,7 +98,8 @@ export default {
   components:{
     navserv,
     search,
-    categories
+    categories,
+    otherline
   },
   methods: {
     nextPage() {
