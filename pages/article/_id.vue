@@ -5,7 +5,7 @@
       <div class="brand_con">
         <div class="brand">
           <nuxt-link to="/">首页</nuxt-link>/
-          <nuxt-link :to="'/'+brand_data.route+'/1/'">{{brand_data.type}}</nuxt-link>/
+          <nuxt-link :to="'https://www.dnitu.com/'+brand_data.route+'/1/'">{{brand_data.type}}</nuxt-link>/
           <span>{{datas.title}}</span>
         </div>
       </div>
@@ -14,8 +14,8 @@
         <p class="time">{{datas.date}}</p>
         <div class="article_con" v-html="datas.content"></div>
         <div class="article_oth">
-          <nuxt-link v-if="prevD" :to="'/article/'+prevD.id">上一篇：{{prevD.title.length>20?prevD.title.slice(0,20)+'...':prevD.title}}</nuxt-link>
-          <nuxt-link v-if="nextD" class="next_article" :to="'/article/'+nextD.id">下一篇：{{nextD.title.length>20?nextD.title.slice(0,20)+'...':nextD.title}}</nuxt-link>
+          <nuxt-link v-if="prevD" :to="'https://www.dnitu.com/article/'+prevD.id">上一篇：{{prevD.title.length>20?prevD.title.slice(0,20)+'...':prevD.title}}</nuxt-link>
+          <nuxt-link v-if="nextD" class="next_article" :to="'https://www.dnitu.com/article/'+nextD.id">下一篇：{{nextD.title.length>20?nextD.title.slice(0,20)+'...':nextD.title}}</nuxt-link>
         </div>
       </div>
       <div class="main_r">

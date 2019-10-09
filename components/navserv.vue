@@ -1,13 +1,13 @@
 <template>
   <div class="nav">
     <div class="nav_con">
-      <a href="/" :class="navS==0?'active':''">首页</a>
-      <a href="/motivational/1/" :class="navS==1?'active':''">励志</a>
-      <a href="/education/1/" :class="navS==2?'active':''">教育</a>
-      <a href="/inspirational/1/" :class="navS==3?'active':''">灵性</a>
-      <a href="/family/1/" :class="navS==4?'active':''">家庭</a>
-      <a href="/love/1/" :class="navS==5?'active':''">爱</a>
-      <a href="/funny/1/" :class="navS==6?'active':''">娱乐</a>
+      <a href="https://www.dnitu.com/" :class="navS==0?'active':''">首页</a>
+      <a href="https://www.dnitu.com/motivational/1/" :class="navS==1?'active':''">励志</a>
+      <a href="https://www.dnitu.com/education/1/" :class="navS==2?'active':''">教育</a>
+      <a href="https://www.dnitu.com/inspirational/1/" :class="navS==3?'active':''">灵性</a>
+      <a href="https://www.dnitu.com/family/1/" :class="navS==4?'active':''">家庭</a>
+      <a href="https://www.dnitu.com/love/1/" :class="navS==5?'active':''">爱</a>
+      <a href="https://www.dnitu.com/funny/1/" :class="navS==6?'active':''">娱乐</a>
     </div>
   </div>
 </template>

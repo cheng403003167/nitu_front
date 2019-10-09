@@ -6,7 +6,7 @@
         v-if="item != '...'"
         @click="params=item"
         :class="params == item?'active':''"
-        :to="'/'+page_nav+'/'+item+'/'"
+        :to="'https://www.dnitu.com/'+page_nav+'/'+item+'/'"
       >{{item}}</nuxt-link>
       <i v-if="item == '...'">...</i>
     </span>

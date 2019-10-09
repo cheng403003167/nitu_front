@@ -2,7 +2,7 @@
   <div class="Categories">
     <h2>分类</h2>
     <nuxt-link
-      :to="'/'+item.route+'/1/'"
+      :to="'https://www.dnitu.com/'+item.route+'/1/'"
       v-for="(item,index) in article_type"
       :key="index"
     >{{item.type}}</nuxt-link>

@@ -5,11 +5,11 @@
       <div class="main_l">
         <div class="list">
           <div class="list_item" v-for="(item,index) in datas" :key="index">
-            <nuxt-link class="img_line" :to="'/article/'+item.id">
+            <nuxt-link class="img_line" :to="'https://www.dnitu.com/article/'+item.id">
               <img :src="'https://traile.oss-cn-shenzhen.aliyuncs.com/'+item.front_img" :alt="item.title">
             </nuxt-link>
             <div class="item_con">
-              <h2><nuxt-link :to="'/article/'+item.id+'/'">{{item.title}}</nuxt-link></h2>
+              <h2><nuxt-link :to="'https://www.dnitu.com/article/'+item.id+'/'">{{item.title}}</nuxt-link></h2>
               <p class="item_des">{{item.tempDes}}</p>
             </div>
           </div>
