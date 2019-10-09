@@ -33,7 +33,7 @@ import pagination from "@/components/pagination";
 import axios from 'axios';
 export default {
   asyncData ({ params }) {
-    return axios.post('http://localhost:8080/api/getArticleListAndType')
+    return axios.post('https://www.dnitu.com/api/getArticleListAndType')
     .then((res) => {
       res.data.article_list.forEach(function(item){
         var filterHTMLTag = function (msg) {
