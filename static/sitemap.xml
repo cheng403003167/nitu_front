@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>https://www.dnitu.com/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/inspirational/1/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/funny/1/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/love/1/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/sitemap/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+
+<url>
+ <loc>https://www.dnitu.com/family/1/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/motivational/1/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/pages/2/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/pages/3/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/pages/1/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/education/1/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/14/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/15/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/16/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/17/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/13/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-10-09</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+</urlset>
