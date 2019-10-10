@@ -15,7 +15,7 @@
               <h2>
                 <nuxt-link :to="'/article/'+item.id+'/'">{{item.title}}</nuxt-link>
               </h2>
-              <p class="item_des">{{item.tempDes}}</p>
+              <p class="item_des">{{item.content}}</p>
             </div>
           </div>
         </div>
@@ -51,16 +51,6 @@ export default {
     return axios
       .post("https://www.dnitu.com/api/getArticleListAndType")
       .then(res => {
-        res.data.article_list.forEach(function(item) {
-          var filterHTMLTag = function(msg) {
-            var msg = msg.replace(/<\/?[^>]*>/g, "");
-            msg = msg.replace(/[|]*\n/, "");
-            msg = msg.replace(/&npsp;/gi, "");
-            msg = msg.replace(/&nbsp;/gi, "");
-            return msg;
-          };
-          item.tempDes = filterHTMLTag(item.content).slice(0, 90) + "...";
-        });
         var pag_leng = Math.ceil(res.data.article_list.length / 5);
         var pag_num = [];
         for (var s = 1; s <= pag_leng; s++) {
