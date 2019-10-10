@@ -58,11 +58,7 @@ module.exports = {
     extend(config, ctx) {
 
     },
-    optimization:{
-      splitChunks:{
-        chunks: 'all'
-      }
-    },
+    extractCSS:{allChunks: true}
   },
   generate: {
     routes: function(){
