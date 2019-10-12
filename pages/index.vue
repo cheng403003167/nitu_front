@@ -51,13 +51,13 @@ export default {
     return axios
       .post("https://www.dnitu.com/api/getArticleListAndType")
       .then(res => {
-        var pag_leng = Math.ceil(res.data.article_list.length / 5);
+        var pag_leng = Math.ceil(res.data.leng / 5);
         var pag_num = [];
         for (var s = 1; s <= pag_leng; s++) {
           pag_num.push(s);
         }
         return {
-          datas: res.data.article_list.reverse().slice(0, 5),
+          datas: res.data.article_list,
           pag_nums: pag_num,
           curPage: 1,
           article_type: res.data.article_type

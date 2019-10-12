@@ -35,9 +35,14 @@ import otherline from "@/components/otherline";
 import axios from 'axios';
 export default {
   asyncData ({ params }) {
-    return axios.post('https://www.dnitu.com/api/getArticleListAndType',{arId:5})
+    return axios.post('https://www.dnitu.com/api/getArticleListAndType',{arId:5,page:params.id})
     .then((res) => {
-      return {datas: res.data.article_list.reverse().slice(5*(params.id-1),5*(params.id-1)+5),curPage:params.id,article_type: res.data.article_type,datas_leng: res.data.article_list.length};
+      return {
+        datas: res.data.article_list,
+        curPage:params.id,
+        article_type: res.data.article_type,
+        datas_leng: res.data.leng
+      };
     })
   },
   data(){
