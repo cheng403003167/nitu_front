@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.dnitu.com/sitemap.html
+Sitemap: https://www.dnitu.com/sitemap.xml
