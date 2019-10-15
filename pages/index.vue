@@ -5,7 +5,7 @@
       <div class="main_l">
         <div class="list">
           <div class="list_item" v-for="(item,index) in datas" :key="index">
-            <nuxt-link class="img_line" :to="'/article/'+item.id">
+            <nuxt-link class="img_line" :to="'/article/'+item.id+'/'">
               <img
                 :src="'https://traile.oss-cn-shenzhen.aliyuncs.com/'+item.front_img"
                 :alt="item.title"
@@ -31,7 +31,7 @@
             v-for="(item,index) in pag_nums"
             :class="curPage == item?'active':''"
             :key="index"
-            :to="'/pages/'+item"
+            :to="'/pages/'+item+'/'"
           >{{item}}</nuxt-link>
         </span>
         <span class="pag_btn" @click="nextPage">下一页</span>
@@ -93,7 +93,7 @@ export default {
   },
   methods: {
     nextPage() {
-      this.$router.push("/pages/2");
+      this.$router.push("/pages/2/");
     }
   }
 };

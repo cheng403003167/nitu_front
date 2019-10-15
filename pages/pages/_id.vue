@@ -5,7 +5,7 @@
       <div class="main_l">
         <div class="list">
           <div class="list_item" v-for="(item,index) in datas" :key="index">
-            <nuxt-link class="img_line" :to="'/article/'+item.id">
+            <nuxt-link class="img_line" :to="'/article/'+item.id+'/'">
               <img :src="'https://traile.oss-cn-shenzhen.aliyuncs.com/'+item.front_img" :alt="item.title">
             </nuxt-link>
             <div class="item_con">
