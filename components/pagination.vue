@@ -86,12 +86,12 @@ export default {
     nextPage(){
       if(this.params<this.pag_nums[this.pag_nums.length-1]){
         ++this.params;
-        this.$router.push('/'+this.$route.name.split('-')[0]+'/'+this.params);
+        this.$router.push('/'+this.page_nav+'/'+this.params+'/');
       }
     },
     prevPage(){
       if(this.params != 1){
-      this.$router.push('/'+this.$route.name.split('-')[0]+'/'+--this.params);
+      this.$router.push('/'+this.page_nav+'/'+--this.params+'/');
       }
     }
   }
