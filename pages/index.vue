@@ -25,17 +25,7 @@
         <categories v-bind:article_type="article_type"></categories>
         <otherline></otherline>
       </div>
-      <div class="pagination">
-        <span>
-          <nuxt-link
-            v-for="(item,index) in pag_nums"
-            :class="curPage == item?'active':''"
-            :key="index"
-            :to="'/pages/'+item+'/'"
-          >{{item}}</nuxt-link>
-        </span>
-        <span class="pag_btn" @click="nextPage">下一页</span>
-      </div>
+      <pagination v-bind:article_leng="datas_leng" v-bind:cur_page="curPage"></pagination>
     </div>
   </div>
 </template>
@@ -44,6 +34,7 @@
 import navserv from "@/components/navserv";
 import search from "@/components/searchcom";
 import categories from "@/components/categories";
+import pagination from "@/components/pagination";
 import otherline from "@/components/otherline";
 import axios from "axios";
 export default {
@@ -51,15 +42,10 @@ export default {
     return axios
       .post("https://www.dnitu.com/api/getArticleListAndType")
       .then(res => {
-        var pag_leng = Math.ceil(res.data.leng / 5);
-        var pag_num = [];
-        for (var s = 1; s <= pag_leng; s++) {
-          pag_num.push(s);
-        }
         return {
           datas: res.data.article_list,
-          pag_nums: pag_num,
           curPage: 1,
+          datas_leng: res.data.leng,
           article_type: res.data.article_type
         };
       });
@@ -89,7 +75,8 @@ export default {
     navserv,
     search,
     categories,
-    otherline
+    otherline,
+    pagination
   },
   methods: {
     nextPage() {
