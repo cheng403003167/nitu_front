@@ -76,7 +76,11 @@ export default {
         }
       }
       this.pag_nums = pag_num;
-      this.page_nav = this.$route.name.split('-')[0];
+      if(this.$route.name.split('-')[0] == 'index'){
+        this.page_nav = 'pages';
+      }else{
+        this.page_nav = this.$route.name.split('-')[0];
+      }
   },
   methods:{
     nextPage(){
