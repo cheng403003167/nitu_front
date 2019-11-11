@@ -9,624 +9,155 @@
 <url>
  <loc>https://www.dnitu.com/</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/101</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-11-10</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/100</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
  <loc>https://www.dnitu.com/inspirational/1/</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
- <loc>https://www.dnitu.com/funny/1/</loc>
+ <loc>https://www.dnitu.com/sitemap.xml</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
  <loc>https://www.dnitu.com/love/1/</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
- <loc>https://www.dnitu.com/sitemap/</loc>
+ <loc>https://www.dnitu.com/funny/1</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
+<url>
+ <loc>https://www.dnitu.com/article/97</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-11-10</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
 
 <url>
- <loc>https://www.dnitu.com/family/1/</loc>
+ <loc>https://www.dnitu.com/family/1</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/pages/1</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-11-10</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/98</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-11-10</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/99</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-11-10</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/inspirational/1</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
  <loc>https://www.dnitu.com/motivational/1/</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
- <loc>https://www.dnitu.com/pages/2/</loc>
+ <loc>https://www.dnitu.com/love/1</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
- <loc>https://www.dnitu.com/pages/3/</loc>
+ <loc>https://www.dnitu.com/funny/1/</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
- <loc>https://www.dnitu.com/pages/1/</loc>
+ <loc>https://www.dnitu.com/pages/2</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/family/1/</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-11-10</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/motivational/1</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
  <loc>https://www.dnitu.com/education/1/</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
- <loc>https://www.dnitu.com/article/14/</loc>
+ <loc>https://www.dnitu.com/education/1</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
- <loc>https://www.dnitu.com/article/15/</loc>
+ <loc>https://www.dnitu.com/pages/20</loc>
  <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
+ <lastmod>2019-11-10</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
-<url>
- <loc>https://www.dnitu.com/article/16/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
-<url>
- <loc>https://www.dnitu.com/article/17/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
-<url>
- <loc>https://www.dnitu.com/article/13/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>>
-
-<url>
- <loc>https://www.dnitu.com/article/18/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>>
-
-<url>
- <loc>https://www.dnitu.com/article/19/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>>
-
-<url>
- <loc>https://www.dnitu.com/article/20/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>>
-
-<url>
- <loc>https://www.dnitu.com/article/21/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>>
-
-<url>
- <loc>https://www.dnitu.com/article/22/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>>
-
-<url>
- <loc>https://www.dnitu.com/article/23/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
-<url>
- <loc>https://www.dnitu.com/article/24/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-12</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/25/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-12</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/26/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-12</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/27/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-13</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/28/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-13</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/29/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-13</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/30/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-14</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/31/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-14</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/32/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-14</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/33/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-15</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/34/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-15</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/35/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-15</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/36/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-16</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/37/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-16</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/38/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-16</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/39/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-17</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/40/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-17</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/41/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-17</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/42/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/43/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/44/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/45/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/46/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/47/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/48/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-21</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/49/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-21</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/50/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-21</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/51/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-22</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/52/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-22</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/53/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-22</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/54/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-23</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/55/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-23</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/56/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-23</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/57/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-24</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/58/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-24</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/59/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-24</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/60/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-25</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/61/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-25</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/62/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-25</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/63/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-26</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/64/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-26</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/65/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-26</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/66/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-27</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/67/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-27</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/68/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-27</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/69/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-28</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/70/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-28</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/71/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-28</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/72/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-29</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/73/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-29</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/74/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-29</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/75/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-30</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/76/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-30</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/77/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-30</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/78/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-31</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/79/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-31</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/80/</loc>
- <priority>0.3</priority>
- <lastmod>2019-10-31</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/81/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-1</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/82/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-1</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/83/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-1</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/84/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-2</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/85/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-2</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/86/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-2</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/87/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/88/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/89/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/90/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/91/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/92/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/93/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/94/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/95/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/96/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/97/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/98/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/99/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/100/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dnitu.com/article/101/</loc>
- <priority>0.3</priority>
- <lastmod>2019-11-3</lastmod>
- <changefreq>weekly</changefreq>
-</url>
 </urlset>
