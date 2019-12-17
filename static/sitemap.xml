@@ -706,6 +706,27 @@
  <changefreq>weekly</changefreq>
 </url>
 
+<url>
+ <loc>https://www.dnitu.com/article/180</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-12-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/181</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-12-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/182</loc>
+ <priority>0.3</priority>
+ <lastmod>2019-12-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
 
 
 </urlset>
