@@ -1161,6 +1161,27 @@
  <changefreq>weekly</changefreq>
 </url>
 
+<url>
+ <loc>https://www.dnitu.com/article/245</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-1-11</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/246</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-1-11</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/247</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-1-11</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
 
 
 </urlset>
