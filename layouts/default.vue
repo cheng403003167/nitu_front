@@ -7,7 +7,7 @@
     <div class="footer">
       <p>
         <span>@dnitu.com</span>
-        <a href="https://www.beian.miit.gov.cn" ref="nofollow">粤ICP备18026264号-2</a>
+        <a href="http://www.beian.miit.gov.cn" ref="nofollow">粤ICP备18026264号-2</a>
         <a href="https://www.dnitu.com/sitemap.xml">网站地图</a>
       </p>
     </div>
