@@ -63,7 +63,7 @@ module.exports = {
   generate: {
     routes: function () {
       function getArticleList() {
-        return axios.post('http://127.0.0.1:8080/api/getArticleLength')
+        return axios.post('https://www.dnitu.com/api/getArticleLength')
           .then((res) => {
             var pag_leng = Math.ceil(res.data[0].leng / 5);
             var pag_router = []
@@ -74,7 +74,7 @@ module.exports = {
           })
       }
       function getMotivational() {
-        return axios.post('http://127.0.0.1:8080/api/getArticleLength', { arId: 1 })
+        return axios.post('https://www.dnitu.com/api/getArticleLength', { arId: 1 })
           .then((res) => {
             var pag_leng = Math.ceil(res.data[0].leng / 5);
             var pag_router = []
@@ -85,7 +85,7 @@ module.exports = {
           })
       }
       function getEducation() {
-        return axios.post('http://127.0.0.1:8080/api/getArticleLength', { arId: 2 })
+        return axios.post('https://www.dnitu.com/api/getArticleLength', { arId: 2 })
           .then((res) => {
             var pag_leng = Math.ceil(res.data[0].leng / 5);
             var pag_router = []
@@ -96,7 +96,7 @@ module.exports = {
           })
       }
       function getFamily() {
-        return axios.post('http://127.0.0.1:8080/api/getArticleLength', { arId: 4 })
+        return axios.post('https://www.dnitu.com/api/getArticleLength', { arId: 4 })
           .then((res) => {
             var pag_leng = Math.ceil(res.data[0].leng / 5);
             var pag_router = []
@@ -107,7 +107,7 @@ module.exports = {
           })
       }
       function getFunny() {
-        return axios.post('http://127.0.0.1:8080/api/getArticleLength', { arId: 6 })
+        return axios.post('https://www.dnitu.com/api/getArticleLength', { arId: 6 })
           .then((res) => {
             var pag_leng = Math.ceil(res.data[0].leng / 5);
             var pag_router = []
@@ -118,7 +118,7 @@ module.exports = {
           })
       }
       function getInspirational() {
-        return axios.post('http://127.0.0.1:8080/api/getArticleLength', { arId: 3 })
+        return axios.post('https://www.dnitu.com/api/getArticleLength', { arId: 3 })
           .then((res) => {
             var pag_leng = Math.ceil(res.data[0].leng / 5);
             var pag_router = []
@@ -129,7 +129,7 @@ module.exports = {
           })
       }
       function getLove() {
-        return axios.post('http://127.0.0.1:8080/api/getArticleLength', { arId: 5 })
+        return axios.post('https://www.dnitu.com/api/getArticleLength', { arId: 5 })
           .then((res) => {
             var pag_leng = Math.ceil(res.data[0].leng / 5);
             var pag_router = []
@@ -140,7 +140,7 @@ module.exports = {
           })
       }
       function getArticleIdList() {
-        return axios.get('http://127.0.0.1:8080/api/getArticleIdList')
+        return axios.get('https://www.dnitu.com/api/getArticleIdList')
           .then((res) => {
             var pag_leng = res.data.length;
             var pag_router = []

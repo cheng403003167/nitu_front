@@ -35,7 +35,7 @@ import otherline from "@/components/otherline";
 import axios from 'axios';
 export default {
   asyncData ({ params }) {
-    return axios.post('http://127.0.0.1:8080/api/getArticleListAndType',{arId:1,page:params.id})
+    return axios.post('https://www.dnitu.com/api/getArticleListAndType',{arId:1,page:params.id})
     .then((res) => {
       return {
         datas: res.data.article_list,

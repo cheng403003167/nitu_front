@@ -33,7 +33,7 @@ import otherline from "@/components/otherline";
 import axios from 'axios';
 export default {
   asyncData ({query}) {
-    return axios.post('http://127.0.0.1:8080/api/getSearchArticleListAndType',query)
+    return axios.post('https://www.dnitu.com/api/getSearchArticleListAndType',query)
     .then((res) => {
       return {datas: res.data.article_list,article_type: res.data.article_type};
     })
