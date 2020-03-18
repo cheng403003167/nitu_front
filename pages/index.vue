@@ -40,7 +40,7 @@ import axios from "axios";
 export default {
   asyncData({ params }) {
     return axios
-      .post("https://www.dnitu.com/api/getArticleListAndType")
+      .post("http://127.0.0.1:8080/api/getArticleListAndType")
       .then(res => {
         return {
           datas: res.data.article_list,
