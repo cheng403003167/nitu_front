@@ -15,7 +15,7 @@
               <h2>
                 <nuxt-link :to="'/article/'+item.id+'/'">{{item.title}}</nuxt-link>
               </h2>
-              <p class="item_des">{{item.content}}</p>
+              <p class="item_des" v-html="item.content"></p>
             </div>
           </div>
         </div>
