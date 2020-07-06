@@ -3653,6 +3653,20 @@
  <changefreq>weekly</changefreq>
 </url>
 
+<url>
+ <loc>https://www.dnitu.com/article/601</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-07-6</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.dnitu.com/article/602</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-07-6</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
 
 
 </urlset>
